@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+
+class student{
+	private:
+	int a,b;
+public:
+void show(int x,int y){
+	a=x;
+	b=y;
+}
+void largest(){
+	if(a>b) return a;
+	else return b;
+}
+
+
+};
+
+int main(){
+	student s1;
+	s1.show(3,6);
+	s1.largest;
+}

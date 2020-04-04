@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+void rotateByOne(char str[])
+{
+	if(str[0]=='/0')
+n
+	char prevChar=str[0];
+
+	char nextChar;
+
+
+	for(int i=1;str[i]!='/0';i++)
+	{
+
+     nextChar=str[i];
+	 str[i]=str[i-1];
+	 nextChar= str[i+1];
+	}
+
+
+}
+void rotatearr(char str[],intk)
+for(int curRot =0;curRot<k;++curRot)
+rotateByone(str);
+}
+}
+	char arr[100];
+   cin>>arr;
+   int k ;
+  cin>>k;
+}
